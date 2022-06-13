@@ -15,4 +15,115 @@
   #no-mobile {
     display: none;
   }
+  .mapWeb {
+    display: none;
+  }
+  #mapTitle {
+    font-size: 80px;
+    font-style: italic;
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 0.5px solid white;
+    padding-right: 20px;
+  }
+
+  #map {
+    border-radius: 50px;
+    margin: 50px;
+  }
+
+  #mapBox {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  #mapInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+
+  #mapForm {
+    display: flex;
+    flex-direction: column;
+  }
+  #mapForm label {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  #mapForm input {
+    width: 300px;
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 30px;
+  }
+  #mapForm select {
+    width: 350px;
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+  #mapForm select:focus {
+    outline: none;
+  }
+  #mapFormBox {
+    display: flex;
+    justify-content: space-around;
+  }
+  .mapButton {
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  #shareImg {
+    background-color: aquamarine;
+  }
+  .mapButton:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    transition: background-color 1s ease-in-out;
+  }
+
+  #shareImg {
+    /* 파일 필드 숨기기 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  #mapFormBox label {
+    font-size: 20px;
+    border: 0.4px solid white;
+    padding: 15px 43px;
+    border-radius: 30px;
+  }
+  #mapFormBox label:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease-in-out;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #no-mobile {
+    display: none;
+  }
+  .mapMobile {
+    display: none;
+  }
 }
