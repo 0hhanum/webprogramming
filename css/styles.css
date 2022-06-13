@@ -15,6 +15,9 @@
 @import "screens/market.css";
 @import "screens/shareLocation.css";
 
+/* 반응형 */
+@import "nomobile.css";
+
 body {
   width: 100%;
   display: flex;
