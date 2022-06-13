@@ -1,0 +1,30 @@
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#mainImg {
+  width: 500px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 90px;
+  animation: rotating 4s ease-in-out infinite;
+}
+#mainContainer {
+  width: 100%;
+  display: flex;
+}
+
+#mainTitle {
+  color: yellow;
+  font-size: 400px;
+  z-index: -100;
+}
+
+#main-contents {
+  margin-left: 50px;
+  z-index: -100;
+}

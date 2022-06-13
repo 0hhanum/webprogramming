@@ -1,0 +1,42 @@
+#writeFormBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#writeForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 1100px;
+}
+
+#writeForm label {
+  margin: 20px 0;
+  font-size: 20px;
+}
+#writeTitle {
+  border-radius: 30px;
+  height: 40px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+#writeTextArea {
+  padding: 30px 30px;
+  height: 250px;
+  border-radius: 50px;
+  font-size: 20px;
+  resize: none;
+}
+#writeTextArea:focus {
+  outline: none;
+}
+
+.writeBox {
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.writing:hover {
+  cursor: pointer;
+}

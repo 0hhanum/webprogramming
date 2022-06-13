@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <title>낚시왕</title>
+  </head>
+
+  <body>
+    <div id="MainContainer">
+      <div id="nav">
+        <div id="logo">
+          <a href="main.html">
+            <i class="fa fa-fish fa-3x"></i>
+            <span id="sitename">낚시왕</span>
+          </a>
+        </div>
+        <div id="nav-menus">
+          <a class="nav-menu" href="main.html">홈</a>
+          <div class="dropdown">
+            <button class="dropbtn">게시판</button>
+            <div class="dropdown-content">
+              <a href="board/freeboard.html">자유게시판</a>
+              <a href="board/toolboard.html">장비게시판</a>
+              <a href="board/caughtboard.html">조과게시판</a>
+              <a href="board/proudboard.html">자랑게시판</a>
+            </div>
+          </div>
+          <a class="nav-menu navSelected" href="shareLocation.html"
+            >출몰지역 공유</a
+          >
+          <div class="dropdown">
+            <button class="dropbtn">장터</button>
+            <div class="dropdown-content">
+              <a href="market.html">중고장터</a>
+              <a href="#">협력 쇼핑몰</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">사이트 소개</button>
+            <div class="dropdown-content">
+              <a href="sitemap.html">사이트맵</a>
+            </div>
+          </div>
+        </div>
+        <div id="nav-profile">
+          <a href="index.html">로그아웃</a>
+          <a href="index.html">마이페이지</a>
+        </div>
+      </div>
+      <div id="locationContainer">
+        <span id="mapTitle">출몰지역 공유</span>
+        <div id="mapBox">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101131.18591854346!2d126.8345378843657!3d37.61746450227238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca302d491f811%3A0x809ffb62a47609b5!2z64-Z6rWt64yA7ZWZ6rWQIOyEnOyauOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1654988801928!5m2!1sko!2skr"
+            width="600"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            id="map"
+          ></iframe>
+
+          <div id="mapInfo">
+            <form id="mapForm">
+              <label for="Fishname">어종</label>
+              <select id="Fishname">
+                <option value="쏘가리">쏘가리</option>
+                <option value="붕어">붕어</option>
+                <option value="배스">배스</option>
+                <option value="강준치">강준치</option>
+                <option value="꺽지">꺽지</option>
+                <option value="쓰리">쓰리</option>
+                <option value="누치">누치</option>
+                <option value="송어">송어</option>
+              </select>
+              <label for="Size">사이즈 (cm)</label>
+              <input id="Size" type="number" />
+              <div id="mapFormBox">
+                <label for="shareImg">사진 첨부</label>
+                <input type="file" class="mapButton" id="shareImg" />
+                <button class="mapButton" id="post">공유하기</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>&copy; H A N U M</footer>
+    <script src="https://kit.fontawesome.com/6478f529f2.js"></script>
+  </body>
+</html>

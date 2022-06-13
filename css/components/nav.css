@@ -1,0 +1,39 @@
+#nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+#logo {
+  display: flex;
+  margin-left: 20px;
+}
+#logo a {
+  text-decoration: none;
+  display: flex;
+}
+#sitename {
+  display: flex;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#nav-profile {
+  margin-right: 20px;
+}
+#nav-profile a {
+  margin-left: 12px;
+  text-decoration: none;
+}
+#nav-profile a:hover {
+  color: yellow;
+  transition: color 0.5s ease-in-out;
+}
+
+.nav-menu {
+  margin: 0 20px;
+  font-weight: normal;
+  text-decoration: none;
+}

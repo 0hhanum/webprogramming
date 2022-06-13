@@ -1,0 +1,40 @@
+#indexContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#indexTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#indexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 150px;
+}
+.indexInput {
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  border: 0.5px solid gray;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+}
+
+.indexInput:focus {
+  background-color: rgb(102, 102, 206);
+  color: white;
+  transition: background-color 1s ease-in-out;
+}

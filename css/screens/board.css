@@ -1,0 +1,69 @@
+#boardName {
+  font-size: 80px;
+  font-style: italic;
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid white;
+}
+
+#lists {
+  padding: 30px 70px;
+}
+li {
+  margin-bottom: 30px;
+}
+.list {
+  display: flex;
+}
+.list .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.list a:hover span {
+  color: yellow;
+  transition: color 0.5s ease-in-out;
+}
+.list .content span {
+  font-size: 30px;
+}
+
+.content-div {
+  width: 90px;
+}
+.content-title {
+  width: 200px;
+}
+
+#boardContentsBox {
+  height: 500px;
+}
+#boardButtonBox {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+#boardWrite {
+  font-size: 40px;
+  padding: 15px 20px;
+  margin-right: 20px;
+  display: flex;
+  margin-top: 50px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  text-decoration: none;
+}
+#boardWrite:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s ease-in-out;
+}

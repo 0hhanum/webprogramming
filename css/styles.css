@@ -1,0 +1,27 @@
+@import "reset.css";
+
+/* components */
+@import "components/footer.css";
+@import "components/authButton.css";
+@import "components/nav.css";
+@import "components/dropdown.css";
+/* screens */
+@import "screens/index.css";
+@import "screens/main.css";
+@import "screens/board.css";
+@import "screens/write.css";
+@import "screens/article.css";
+@import "screens/sitemap.css";
+@import "screens/market.css";
+@import "screens/shareLocation.css";
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(23, 22, 22);
+}
+
+#MainContainer {
+  width: 1425px;
+}
